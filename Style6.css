@@ -1,0 +1,321 @@
+h1	{
+		font-size: 58pt; 
+		font-weight: bold;
+		color: white;
+		padding: 0px;
+		margin: 0px auto;
+		width: 180px;
+		height: 70px;
+		text-shadow: 0px 0px 4px black;
+}
+body	{
+		background-color: #36527c;
+		position: relative;
+		margin: 0px;
+		padding: 0px;
+		height: 1200px;
+}
+a	{
+		color: white;
+		font-size: 26px;
+		text-decoration: none;
+}
+a:hover {
+			color: #e31700;
+			cursor: pointer;
+}	
+
+header {
+		background-color: #273c59;
+		position: fixed;
+		left: 0px;
+		right: 0px;
+		top: 0px;
+		height: 140px;
+		padding: 0px;
+		margin: 0px;
+		border: 5px #080c11 solid;
+		border-top: 0px;
+		border-bottom-left-radius: 25px;
+		border-bottom-right-radius: 25px;
+		z-index: 4;
+}
+
+ul {
+		font-size: 22px;
+}
+.End {
+		color: white;
+		font-size: 30px;
+		background-color: #273c59;
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		margin: 0px;
+}
+.beep {
+		background-color: #273c59;
+		padding: 40px;
+		border: 5px #080c11 solid;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		
+}
+
+
+.container {
+
+}
+
+.Search-box {
+		width: 380px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		right: 10%;
+		margin-right: 25px;
+		background-color: #2f486a;
+		position: absolute;
+		top: 80px;
+		width: 110px;
+		height: 45px;
+		border: none;
+		outline: none;
+		font-size: 30px;
+		color: white;	
+		padding: 0px 6px;
+		transition: 0.4s;
+		z-index: 5;
+		border: 1px black solid;
+}
+
+.Search-text {
+		background-color: #2f486a;
+		position: absolute;
+		width: 110px;
+		height: 45px;
+		border: none;
+		outline: none;
+		font-size: 25px;
+		color: white;	
+		padding-right: 6px;		
+		padding-bottom: 0px;
+		padding-top: 0px;
+		padding-left: 6px;
+		transition: 0.4s;
+		z-index: 5;
+		border: 1px black solid;
+}
+
+.Search-button {
+		visibility: hidden;
+		position: relative;
+		z-index: 5;
+		margin-left: auto;
+		color: white;
+}
+
+.Search-button:hover {
+		color: black;
+}
+
+.Search-box:hover ,.Search-box:focus-within  {
+		width: 380px;
+		position: absolute;
+		margin-left: 1000px;
+		border: 1px black solid;
+}
+
+.Search-box:hover > .Search-text, .Search-box input[type = "text"]:focus {
+		padding-right: 40px;
+		border: 1px black solid;
+		width: 348px;
+		position: absolute;
+
+}
+
+.Search-box:hover > .Search-button {
+		transition: 0.4s;
+		visibility: visible;
+}
+
+.Search-box input[type = "text"]:focus ~ .Search-button {
+		visibility: visible;
+}
+
+.checkbox {
+		position: absolute;
+		right: 40px;
+		top: 13px;
+		width: 60px;
+		height: 30px;
+		background-color: grey;
+		border-radius: 25px;
+		cursor: pointer;
+		outline: none;
+		z-index: 2;
+		-webkit-appearance: none;
+		border: 2px black solid;
+		
+		
+}
+.checkbox:checked {
+		background-color: black;	
+		border: 2px grey solid;
+}
+
+.checkbox:before > .beep {
+		background-color: black;
+	
+}
+
+#darkmode {
+		position: absolute;
+		right: 110px;
+		top: 0px;
+		font-size: 20px;
+		color: white;
+		z-index: 2;
+		
+}
+
+.img-1 {
+		position: absolute;
+		left: 100px;
+		top: 10px;
+		width: 120px;
+		height: 99px;
+		z-index: 10;
+		border: 3px #080c11 solid;
+		color: white;
+		-webkit-appearance: none;
+}
+
+label #sidebar-btn-icon {
+		position: fixed;
+		color: #36527c;
+		cursor: pointer;
+		font-size: 62px;
+		left: 50%;
+		margin-left: -50px;
+		top: 85px;
+		transition: 0.4s;
+}
+
+label #sidebar-btn-icon:hover {
+		color: white;
+
+}
+#sidebar-btn {
+		-webkit-appearance: none;
+		color: red;
+}
+
+#sidebar-btn:checked ~ header{
+		background-color: black;
+		width: 1000px;
+		
+}
+
+.ImLazy {
+		margin-bottom: 130px;
+}
+
+.MB6 {
+		position: absolute;
+		left: 15%;
+		top: 25%;
+		border: 5px black solid;
+		border-radius: 20px;		
+}
+
+.text {
+		position: absolute;
+		left: 59%;
+		top: 25%;
+		text-align: left;
+		width: 590px;
+		margin: 0px;
+		color: white;
+		font-size: Calibri;
+		font-size: 20px;
+		border: 3px black solid;
+		border-radius: 20px;
+		padding-bottom: 500px;
+		padding-left: 6px;
+		padding-top: 6px;
+		background-color: #273c59;
+}
+
+.pricetag {
+		position: absolute;
+		left: 59%;
+		margin-left: 10px;
+		top: 57%;
+		color: #00e600;
+		font-size: 24px;
+}
+
+.Title {
+		position: absolute;
+		left: 22%;
+		top: 15%;
+		width: 400px;
+		color: white;
+		font-size: 52px;
+}
+
+.buybutton-box {
+		position: absolute;
+		left: 60%;
+		top: 63%;
+		background-color: #36527c;
+		-webkit-appearance: none;
+		width: 100px;
+		height: 50px;
+		border: 1px black solid;
+		border-radius: 10px;
+		cursor: pointer;
+		
+}
+
+.buybutton {
+		-webkit-appearance:none;
+}
+
+.buybutton-text {
+		color: white;
+		position: relative;
+		z-index: 3;
+		padding-left: 15px;
+}
+
+.loginb {
+		position: absolute;
+		right: 250px;
+		top: 13px;
+		width: 80px;
+		text-align: center;
+		padding: 10px 0px;
+		background-color: #2f486a;
+		color: white;
+		border: 1px black solid;
+		border-radius: 15px;
+		cursor: pointer;
+}
+
+a .buybutton-box {
+		font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
