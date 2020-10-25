@@ -55,10 +55,10 @@ ul {
 		margin: 0px;
 }
 .beep {
-		position: absolute;
 		background-color: #273c59;
 		padding: 40px;
 		border: 5px #080c11 solid;
+		position: absolute;
 		bottom: 0px;
 		left: 0px;
 		right: 0px;
