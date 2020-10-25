@@ -317,17 +317,21 @@ p {
 }
 
 .infos  {
-		position: relative;
-		top: 200px;
-		left: 25px;
+		position: absolute;
+		top: 400px;
+		left: 290px;
 		background-color: #2f486a;
 		border: 1px black solid;
 		width: 200px;
 		height: 30px;		
 		color: white;
 		font-size: 20px;
-		padding-left: 5px;
+		font-family: calibri;
+		padding-top: 10px;
 		cursor: pointer;
+		text-decoration: none;
+		display: block;
+		text-align: center;
 }
 
 
